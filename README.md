@@ -1,2 +1,3 @@
-# RaspberryPiNAS
-Lowcost NAS using Raspberry PI
+## Building home NAS using Raspberry Pi and cloud storage
+
+TODO
