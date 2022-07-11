@@ -6,8 +6,7 @@ Follow these steps:
 
 * [Prepare hardware and storage](Content/PrepareHardwareAndStorage.md)
 * [Setup mount points in fstab](Content/SetupMountPoints.md)
-* [Prepare Mega.nz account]()
-* [Prepare rclone Mega.nz drive and crypted drive]()
+* [Prepare rclone Mega.nz drive and crypted drive](Content/CreateRcloneDrives.md)
 * [Setup samba server and shared storage]()
 * [Prepare KBackup profile]()
 * [Prepare backup script]()

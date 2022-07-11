@@ -26,6 +26,5 @@ This disk will be split into 2 partitions, each accessible as a network share.
 2. Create a single partition **sdba** spanning the entire media.  
     Use **exfat**[^2] again.
 
----
 [^1]: The device letter (sda, sdb, ...) depends on the system.  
 [^2]: exfat file system is readable on Windows as well and it is more universal than FAT.

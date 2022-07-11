@@ -1,0 +1,7 @@
+# Add this to your fstab file:
+
+# M.2 disk mounting points
+UUID=FA74-C04F	/mnt/Shared_Backup	exfat	auto,nofail,noatime,users,rw,uid=pi,gid=pi	0	0
+UUID=6EE6-D050	/mnt/Shared_Nobackup	exfat	auto,nofail,noatime,users,rw,uid=pi,gid=pi	0	0
+# USB thumb drive mounting points
+UUID=6BDF-3C8F	/mnt/BackupDrive	exfat	auto,nofail,noatime,users,rw,uid=pi,gid=pi	0	0
