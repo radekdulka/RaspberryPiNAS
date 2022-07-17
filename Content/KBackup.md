@@ -12,7 +12,7 @@
     * how many full backups to keep
     * full backup interval[^1]
     * whether to compress archived files[^2]
-5. Save the profile to a file, typically with **.kbp** extension.
+5. Save the profile to **/home/pi/KBackup/Profiles/profile.kbp**
 
 ![KBackup](../Images/kbackup.png "KBackup")
 
