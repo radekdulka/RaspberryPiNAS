@@ -1,6 +1,8 @@
 # Prepare hardware
 
-Prepare your hardware and storage. Cloud not included, see [TODO RD: Create Mega.nz account and storage]().
+Prepare your hardware and storage. Cloud not included, see [creating Mega.nz account and storage](CreateRcloneDrives.md).
+
+![hardwareUsed](../Images/HardwareDiagram.png "Hardware used")
 
 ## M.2 SSD Disk
 
@@ -23,8 +25,12 @@ This disk will be split into 2 partitions, each accessible as a network share.
 1. Connect the disk to Raspberry Pi.  
     The system should attach it as **/dev/sdb**[^1].
 
-2. Create a single partition **sdba** spanning the entire media.  
+2. Create a single partition **sdb1** spanning the entire media.  
     Use **exfat**[^2] again.
 
 [^1]: The device letter (sda, sdb, ...) depends on the system.  
-[^2]: exfat file system is readable on Windows as well and it is more universal than FAT.
+[^2]: exfat file system is readable on Windows as well and it is more universal than FAT. Software needed for reading the exfat file system should be already available in the RPi OS.
+
+## Diagram of logical storage devices
+
+![storagedevices](../Images/StorageDiagram.png "Logical storage")

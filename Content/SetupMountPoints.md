@@ -8,6 +8,18 @@ The output should look something like this:
 
 ![Blkid](../Images/Blkid.png "Blkid output")
 
+## Create mounting points
+
+Create directories to which the partitions will be mounted:
+
+```bash
+sudo mkdir /mnt/Shared_Backup  
+sudo mkdir /mnt/Shared_Nobackup  
+sudo mkdir /mnt/BackupDrive  
+```
+
+The directories should have rights **drwxr-xr-x**, i.e. 755.
+
 ## Edit fstab file
 
 Edit **/etc/fstab** file e.g. using nano:

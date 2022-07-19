@@ -12,15 +12,30 @@ Links:
 * <https://rclone.org/downloads/>
 * <https://pimylifeup.com/raspberry-pi-rclone/>
 
+![rclone_packages](../Images/rclone_package.png "Which package to downoad")
+
+For installing a **.deb** package use the command
+
+`sudo apt install ./whatever-package.deb`
+
+## Create a Mega Account
+
+Not described here. Make sure to store the password.  
+Also note that Mega storage is not completely safe because of security issues or in case the password is compromised.  
+So encrypting the files using rclone might be a good option. The process is described in the following step.
+
 ## Create Mega storage
 
 1. Create a normal *Mega* storage in rclone.  
-    The storage name in rclone will be **Mega:**  
-    This storage will be only encrypted by the cloud provider.
+    The storage name in rclone will be **Mega**  
+    This storage will be only encrypted by the cloud provider. See [creating Mega storage](https://rclone.org/mega/).  
+    When configuring the drive in rclone, use the Mega login name and password.
 
-2. Create a rclone crypted storage based on **Mega:**  
-    Name the storage **Mega_Crypted:**  
-    The storage will be encrypted by rclone.
+2. Create a rclone crypted storage based on **Mega**  
+    Name the storage **Mega_Crypted**. Enter **Mega** as the name of storage to be encrypted.  
+    The storage will be encrypted by rclone.  
+    Choose not to encrypt the filenames, only add **.bin** extension.  
+    Choose not to encrypt directory names.  
 
 You can check the rclone remotes using the command
 

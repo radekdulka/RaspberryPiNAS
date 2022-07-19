@@ -4,9 +4,10 @@
 
 Follow these steps:
 
+* [Prepare the Raspberry Pi](Content/PrepareRaspberryPi.md)
 * [Prepare hardware and storage](Content/PrepareHardwareAndStorage.md)
 * [Setup mount points in fstab](Content/SetupMountPoints.md)
-* [Prepare rclone Mega.nz drive and crypted drive](Content/CreateRcloneDrives.md)
 * [Setup samba server and shared storage](Content/SambaSetup.md)
+* [Prepare rclone Mega.nz drive and crypted drive](Content/CreateRcloneDrives.md)
 * [Prepare KBackup profile](Content/KBackup.md)
 * [Prepare backup script](Content/BackupScript.md)

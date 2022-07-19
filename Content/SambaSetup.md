@@ -1,12 +1,15 @@
-# Install samba server
+# Samba server
 
-Install **samba** and **samba-common-bin** on the Raspberry pi. Follow some of the tutorials:
+## Install the samba server
 
+Install **samba** and **samba-common-bin**[^1] on the Raspberry pi. Follow some of the tutorials:
+
+* <https://linuxfordevices.com/tutorials/linux/linux-samba>
 * <https://pimylifeup.com/raspberry-pi-samba/>
 * <https://magpi.raspberrypi.com/articles/samba-file-server>
 * <https://tutorials-raspberrypi.com/raspberry-pi-samba-server-share-files-in-the-local-network/>
 
-# Configure the samba server
+## Configure the samba server
 
 We want to share the two partitions of the M.2 disk [created in earlier](PrepareHardwareAndStorage.md).
 These are mapped to folders **/mnt/Shared_Backup** and **/mnt/Shared_Nobackup**, but we want them to be accessible under different names.
@@ -42,3 +45,5 @@ Guest ok = yes
 ```
 
 Note that the names in the brackets, i.e. **Shared** and **Nobackup** will be the folder names you want to access, e.g. ***\\raspberrypi\Shared**.
+
+[^1]: **samba-common-bin** is probably installed together with **samba**

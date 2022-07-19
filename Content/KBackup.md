@@ -5,9 +5,10 @@
 ## Creating a profile
 
 1. Open KBackup GUI
-2. In pane (1) select folders to backup
+2. In pane (1) select folders to backup.  
+    In our case it's the entire **/mnt/Shared_Backup** folder.
 3. In textbox (2) input the backup target  
-    In our case it's the USB thumb drive mounted to /mnt/BackupDrive.
+    In our case it's the USB thumb drive mounted to **/mnt/BackupDrive.**
 4. Open profile settings dialog (3) and set profile details, namely:
     * how many full backups to keep
     * full backup interval[^1]
